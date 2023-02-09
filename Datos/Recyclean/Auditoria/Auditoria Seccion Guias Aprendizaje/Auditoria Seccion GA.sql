@@ -1,0 +1,15 @@
+create table auditoria_seccion_guias_aprendizaje(
+id_audi int auto_Increment,
+Audi_SGALibrosAnterior longtext,
+Audi_SGATutorialesAnterior blob,
+Audi_SGAMaterialInteractivoAnterior blob,
+Audi_SGAContenidoAudioVisualAnterior blob,
+Audi_SGALibrosNuevo longtext,
+Audi_SGATutorialesNuevo blob,
+Audi_SGAMaterialInteractivoNuevo blob,
+Audi_SGAContenidoAudioVisualNuevo blob,
+Audi_LlavePrimaria int,
+Audi_FecharModificacion datetime,
+Audi_Usuario varchar(45),
+Audi_Accion varchar(45),
+primary key (id_audi))
